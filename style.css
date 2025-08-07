@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap');
+
+header {
+    background-color: black;
+    color: white;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Для позиционирования логотипа */
+    padding:25px 0px;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20%;
+    height: auto;
+    margin-left: 20px; /* Отступ от края */
+}
+
+header > h1 {
+    margin: 0; /* Убираем стандартные отступы */
+    font-family: "Manrope", sans-serif;
+}
+
+header > nav {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 20px; /* Отступ от края */
+    font-family: "Manrope", sans-serif;
+}
+header a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+.zagolovok1 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    display: inline-block;
+    margin-right: 20px; /* Добавляем отступ между заголовками */
+}
+
+.zagolovok3 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    display: inline-block;
+}
+
+.zagolovok2 {
+    font-family: "Manjari", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 20px; /* Добавляем отступ между подзаголовками */
+}
+
+.zagolovok4 {
+    font-family: "Manjari", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    display: inline-block;
+}
+
+/* Добавляем контейнеры для группировки заголовков */
+.headings-row {
+    display: block;
+    margin-bottom: 10px; /* Отступ между строками заголовков */
+}
+footer{
+    margin-top:400px;
+    background-color: black;
+    color:white;
+    padding:50px 0px;;
+}
+footer>nav{
+    position: absolute;
+    right: 900px;
+    transform: translateY(-50%);
+    font-family: "Manrope", sans-serif;
+}
+footer a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
